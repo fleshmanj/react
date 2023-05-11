@@ -31,8 +31,8 @@ function PdfViewer(props) {
     }
 
     return (
-        <div style={{ height: '600px' }}>
-            <iframe id="pdfViewer" src={filePath} onLoad={onIframeLoad} style={{ width: '100%', border: 'none' }}></iframe>
+        <div style={{ height: '1200px' }}>
+            <iframe id="pdfViewer" src={filePath} onLoad={onIframeLoad} style={{ width: '100%', height: "1200px", border: 'none' }}></iframe>
         </div>
     );
 }
